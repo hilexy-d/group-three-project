@@ -1,0 +1,897 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background: #f5f5f5;
+    /* font-family:"Poppins", sans-serif; */
+}
+/* HEADER  */
+
+header{
+    /* background-color: rgba(128, 128, 128, 0.2); */
+    background-image: url(images/main\ basket.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    /* padding-bottom: 0px; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 0px;
+}
+.navbar .logo{
+    color: green;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar .logo h3 span{
+    color: red;
+}
+.navbar .nav-link ul{
+    list-style: none;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+    align-items: center;
+}
+.navbar .nav-link ul li a{
+    text-decoration: none;
+    color: black;
+}
+select{
+    width: 70px;
+    border:none;
+    outline: none;
+    background: transparent;
+    font-size: 1em;
+}
+.navbar .icon i{
+    background: whitesmoke;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.navbar .icon{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+.hero-section{
+    display: flex;
+    margin: auto 0px;
+    /* margin-top: 150px; */
+    align-items: center;
+    height: 100vh;
+    /* padding: 60px; */
+
+}
+.hero-section .hero{
+    padding-left: 60px;
+    width: 50%;
+    margin: auto 0px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.hero-section .hero h1{
+    font-size: 4em;
+    font-weight: 800;
+}
+.hero-section .hero .hero-btn{
+    margin-top: 40px;
+
+}
+.hero-btn .green-btn{
+    background: green;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero-btn .orange-btn{
+    background: orangered;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.hero-img img{
+    /* width: 600px; */
+    margin-top: -10px;
+    background-size: cover;
+}
+.bar-togle{
+    display: none;
+}
+
+/* Main section */
+.main-section{
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    gap: 40px;
+}
+.main-img img{
+    width: 400px;
+    border-radius: 10px;
+}
+.main-section .main{
+    margin-left: 45px;
+
+}
+.main{
+    flex: 1;
+}
+.main h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.main p{
+    margin-bottom: 20px;
+    color:gray;
+}
+.main ul{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.main ul li{
+    margin-bottom: 20px;
+    color: rgb(42, 40, 40);
+}
+.main ul li i{
+    color: green;
+    margin-right: 5px;
+}
+.main .main-btn{
+    background: green;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+/*FEATURES STYLES*/
+.features {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.features h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: gray;
+    margin-bottom: 40px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    margin:0px auto;
+    /* flex-wrap: wrap; */
+}
+
+.feature-container .card {
+    border: 1px solid white;
+    width: 320px;
+    height: auto;
+    padding: 30px;
+    background: white;
+   
+
+}
+
+.feature-container .card h3 {
+    margin: 10px 0;
+}
+
+.feature-container .card p {
+    color: gray;
+    font-size: 14px;
+}
+
+.feature-container .card button {
+    margin-top: 15px;
+    padding: 8px 20px;
+    border: 2px solid green;
+    background: none;
+    color: green;
+    border-radius: 20px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background: green;
+    color: white;
+}
+
+
+/* OUR PRODUCTS  */
+.our-product{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    align-items: center;
+    /* text-align: center; */
+    /* width: 100%; */
+}
+.section .line{
+    border: 1px solid green;
+    width: 40px;
+}
+.section .line-one{
+    border: 1px solid red;
+    width: 60px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+
+}
+.section h2{
+    font-size: xx-large;
+}
+.section p{
+    margin-top: 20px;
+    
+    width: 80%;
+}
+
+.fliters{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+.fliters button{
+    display: block;
+    width: 100px;
+    padding:0px 12px;
+    font-size: 12px;
+    height: 5vh;
+    margin: 5px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+.fliters button:hover{
+    color: white;
+    background-color: green;
+    /* padding: 6px 12px; */
+    margin: 5px;
+    border: 2px solid green;
+    transition: 0.4s ease;
+
+
+}
+
+
+/* cart styling  */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-top: 30px;
+    padding: 30px 60px;
+}
+.card{
+    background-color: white;
+    padding: 20px 0px 0px;
+    position: relative;
+    border-radius: 5px;
+    transition: 0.4s;
+
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.card .badge{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: orangered;
+    color: white;
+    padding: 3px 8px;
+    font-size: large;
+}
+.card img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+.card .price{
+    color: green;
+    font-weight: bold;
+}
+.card .price span{
+    color: gray;
+    text-decoration: line-through;
+    margin-left: 6px;
+}
+.card>.actions {
+    display: flex;
+    /* padding:0px 0px; */
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.card > .card-details{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.card>.actions > .line{
+    border-left: 2px solid rgba(14, 14, 14, 0.5);
+    height: 30px;
+}
+.card>.actions a{
+    margin: auto 0px;
+}
+.actions > button{
+    font-size: 16px;
+}
+.actions i{
+    color: green;
+}
+.card>.actions a, .actions > button{
+    color: black;
+    border: none;
+    text-decoration: none;
+    background: transparent;
+    margin: auto;
+    /* box-sizing: content-box; */
+    
+}
+
+
+.button{
+    /* margin-top: 20px; */
+    /* margin-left: 40%; */
+    margin: auto;
+    width: 250px;
+}
+.button button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    margin:  0px auto;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    transition: all 0.5sec ease;
+
+}
+
+.visit-our-farm{
+    background: green;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.visit{
+    width: 50%;
+}
+.visit h2{
+    margin-bottom: 20px;
+}
+.visit-button button{
+    display: block;
+    width: 150px;
+    background: orangered;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    padding: 12px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+
+
+/* REVIEW CUSTOMER */
+
+
+.reviews {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f5f5f5;
+}
+
+.reviews h2 {
+    font-size: 32px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    background: white;
+    position: relative;
+    padding: 20px 10px;
+    width: 250px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.review-card:hover{
+    transform: translateY(8px);
+    transition: 0.5s ease;
+}
+
+.review-card .quote {
+    color: green;
+    margin-top: -40px;
+    /* position: absolute; */
+    /* top: 0; */
+    
+}
+.review-card .quote i{
+    font-size: 3rem;
+}
+.review-card .quote span i{
+    color: orangered;
+}
+
+.review-card p {
+    font-size: 14px;
+    color: gray;
+}
+
+.client {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.client img {
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+}
+
+
+.client h4 {
+    margin: 0;
+}
+
+.client span {
+    font-size: 12px;
+    color: gray;
+}
+
+/* Highlight middle card */
+.review-card.active {
+    background: green;
+    color: white;
+}
+
+.review-card.active p,
+.review-card.active span {
+    color: white;
+}
+
+.customer-button button {
+    border: 2px solid green;
+    background: none;
+    padding: 10px 0px;
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.customer-button button:hover{
+    background-color: green;
+    color: white;
+}
+
+.buttons button :hover {
+    background: green;
+    color: white;
+}
+
+/* Latest Blog  */
+
+.blog-section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.green-line {
+    border: 1px solid green;
+    width: 40px;
+    margin: 0 auto 5px;
+}
+.red-line {
+    border: 1px solid red;
+    width: 70px;
+    /* margin-bottom: 10px; */
+    /* margin-top: 10px; */
+    margin: 0 auto 8px;
+}
+
+.header-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.header-container p {
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.blog-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog-card {
+    background: white;
+    flex: 1;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.meta {
+    font-size: 0.85rem;
+    color: #7ab730;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.meta i {
+    margin-right: 5px;
+}
+
+/* Footer Section */
+.main-footer {
+    background-color: #111111;
+    color: #999;
+    padding: 80px 10% 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.footer-col {
+    flex: 1;
+}
+
+.footer-logo {
+    color: #7ab730;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.footer-logo span {
+    color: red;
+}
+
+.footer-col h3 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+}
+
+.footer-col p {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.footer-col i {
+    color: #7ab730;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #999;
+    color: #999;
+    /* text-align: center; */
+    line-height: 35px;
+    /* margin-left: 20px; */
+    border-radius: 50%;
+    /* margin-right: 1px; */
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.social-icons a i{
+    margin-left: 6px;
+}
+
+.social-icons a:hover {
+    background-color: green;
+}
+.social-icons a i:hover{
+    color: white;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #999;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-col ul li a:before {
+    content: '>';
+    margin-right: 8px;
+}
+
+.newsletter-box {
+    display: flex;
+    border: 1px solid #333;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.newsletter-box input {
+    background: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+
+.newsletter-box button {
+    background: #7ab730;
+    border: none;
+    color: white;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    border-top: 1px solid #222;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.footer-bottom span {
+    color: #7ab730;
+}
+
+.back-to-top{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    bottom: 40px;
+    right: 40px;
+    background:orangered;
+    color: white;
+    padding: 0px 10px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: background 0.3s, transform 0.3s;
+}
+.back-to-top:hover{
+    background: green;
+    transform: translateY(-3px);
+}
+@media(max-width: 992px){
+    .grid{
+         grid-template-columns: repeat(3,1fr);
+        /* flex-wrap: wrap; */
+        padding: 10px 8px;
+    }
+    .button{
+        margin-top: 20px;
+    }
+    .main-section{
+        flex-direction: column;
+    }
+}
+@media(max-width: 768px){
+    header{
+        background-position: center;
+    }
+    .nav-link{
+        display: none;
+    }
+    .hero-section .hero {
+        width: 100%;
+        font-size: 24px;
+        height: auto;
+        /* color: red; */
+    }
+    .hero-section .hero h1{
+        font-size: 2.5rem
+    }
+    .main-section .main{
+        margin-left: 0px;
+    }
+
+        
+    .bar-togle {
+        display: block;
+    }
+    .nav-link.show{
+        display: block;
+        width: 100%;
+    }
+    .nav-link ul{
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        padding: 20px;
+        background-color: rgba(128, 128, 128, 0.2);        flex-direction: column;
+    }
+    .our-product{
+        flex-direction: column;
+        
+        padding: 20px 20px 0px;
+    }
+    .section{
+        width: 100%;
+        margin-bottom: -30px;
+    }
+    .fliters{
+        align-items: flex-start;
+        margin-right: auto;
+    }
+    .grid{
+         grid-template-columns: repeat(2,1fr);
+        /* flex-wrap: wrap; */
+        padding: 10px 8px;
+    }
+    .card{
+        width: 100%;
+    }
+    .button button{
+        text-align: center;
+        margin-right: auto;
+        justify-content: center;
+        display: flex;
+        margin-top: 20px;
+    }
+    .feature-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .visit-our-farm{
+        width: 100%;
+        font-size: 12px;
+        flex-direction: column;
+    }
+    .visit,.section p{
+        width: 100%;
+    }
+    .blog-grid{
+        flex-direction: column;
+    }
+    .review-card{
+        width: 90%;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+}
+@media(max-width: 575px){
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+     .hero-section .hero {
+        width: 100%;
+        font-size: 14px;
+        height: auto;
+        /* color: red; */
+    }
+}
+@media(max-width: 325px){
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+     .hero-section .hero {
+        width: 100%;
+        font-size: 14px;
+        height: auto;
+        /* color: red; */
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .main-section .main{
+        font-size: 12px;
+        width: 100%;
+        padding: 0px;
+    }
+}
