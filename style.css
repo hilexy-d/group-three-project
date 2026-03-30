@@ -798,7 +798,8 @@ button:hover {
         top: 60px;
         left: 0;
         padding: 20px;
-        background-color: rgba(128, 128, 128, 0.2);        flex-direction: column;
+        z-index: 2;
+        background-color: rgba(128, 128, 128, 1);        flex-direction: column;
     }
     .our-product{
         flex-direction: column;
